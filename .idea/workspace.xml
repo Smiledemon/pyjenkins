@@ -11,6 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Jenkins$html_report__1_.coverage" NAME="html_report (1) Coverage Results" MODIFIED="1538189280013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Jenkins/ReportTest" />
+    <SUITE FILE_PATH="coverage/Jenkins$html_report__2_.coverage" NAME="html_report (2) Coverage Results" MODIFIED="1538190411658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pyjenkins/ReportTest" />
     <SUITE FILE_PATH="coverage/Jenkins$py_test_for_Test_Test.coverage" NAME="py.test for Test.Test Coverage Results" MODIFIED="1538188585514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Jenkins" />
     <SUITE FILE_PATH="coverage/Jenkins$html_report.coverage" NAME="html_report Coverage Results" MODIFIED="1538188995045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Jenkins" />
     <SUITE FILE_PATH="coverage/Jenkins$py_test_in_Test_py.coverage" NAME="py.test in Test.py Coverage Results" MODIFIED="1538189263106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Jenkins" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="html_report.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../pyjenkins/ReportTest/html_report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="76">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -47,6 +48,7 @@
         <option value="$PROJECT_DIR$/../Jenkins/html_report.py" />
         <option value="$PROJECT_DIR$/../Jenkins/ReportTest/html_report.py" />
         <option value="$PROJECT_DIR$/../Jenkins/ReportTest/Test.py" />
+        <option value="$PROJECT_DIR$/../pyjenkins/ReportTest/html_report.py" />
       </list>
     </option>
   </component>
@@ -113,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.html_report (1)">
+  <component name="RunManager" selected="Python.html_report (2)">
     <configuration name="html_report (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyjenkins" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +130,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Jenkins/ReportTest/html_report.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="html_report (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyjenkins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pyjenkins/ReportTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pyjenkins/ReportTest/html_report.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,21 +188,6 @@
       <option name="_new_target" value="&quot;ReportTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for ReportTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pyjenkins" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pyjenkins" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ReportTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="py.test in F:/study/Jenkins/ReportTest/Test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pyjenkins" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,18 +205,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.py.test in F:/study/Jenkins/ReportTest/Test.py" />
-      <item itemvalue="Python tests.py.test for ReportTest.Test.Test" />
       <item itemvalue="Python tests.py.test for ReportTest.Test.Test.test_aaa" />
       <item itemvalue="Python.html_report" />
       <item itemvalue="Python.html_report (1)" />
+      <item itemvalue="Python.html_report (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.html_report (2)" />
         <item itemvalue="Python.html_report (1)" />
         <item itemvalue="Python tests.py.test in F:/study/Jenkins/ReportTest/Test.py" />
         <item itemvalue="Python.html_report" />
         <item itemvalue="Python tests.py.test for ReportTest.Test.Test.test_aaa" />
-        <item itemvalue="Python tests.py.test for ReportTest.Test.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +267,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -293,7 +300,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -343,13 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyjenkins/ReportTest/testcase5_dynamic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Jenkins/ReportTest/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -362,10 +362,20 @@
         <state relative-caret-position="-1596" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyjenkins/ReportTest/html_report.py">
+    <entry file="file://$PROJECT_DIR$/../pyjenkins/ReportTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyjenkins/ReportTest/testcase5_dynamic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyjenkins/ReportTest/html_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>

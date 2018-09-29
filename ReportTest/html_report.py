@@ -2,7 +2,7 @@
 
 from HTMLTestRunner import HTMLTestRunner
 import unittest
-from ReportTest.testcase5_dynamic import WidgetTestCase
+from testcase5_dynamic import WidgetTestCase
 
 if __name__ == '__main__':
 	suite = unittest.makeSuite(WidgetTestCase)
